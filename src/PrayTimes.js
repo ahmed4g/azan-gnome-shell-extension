@@ -69,7 +69,7 @@ function getMethods() {
 			params: { fajr: 19.5, isha: 17.5 } },
 		Makkah: {
 			name: 'Umm Al-Qura University, Makkah',
-			params: { fajr: 18.5, isha: '90 min' } },  // fajr was 19 degrees before 1430 hijri
+			params: { fajr: 18, isha: '90 min' } },  // fajr was 19 degrees before 1430 hijri
 		Karachi: {
 			name: 'University of Islamic Sciences, Karachi',
 			params: { fajr: 18, isha: 18 } },
