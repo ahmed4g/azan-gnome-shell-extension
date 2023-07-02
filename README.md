@@ -17,7 +17,7 @@ Azan is an Islamic prayer times extension for Gnome Shell.
 
 ### Installation
 
-1. Download zip file : https://github.com/raihan2000/azan-gnome-shell-extension
+1. Download zip file : https://github.com/ahmed4g/azan-gnome-shell-extension
 2. Extract to azan-gnome-shell-extension-master
 3. make install
 
