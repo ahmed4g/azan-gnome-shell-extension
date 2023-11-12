@@ -108,7 +108,7 @@ function PrayTimes(method) {
 
 	// Default Parameters in Calculation Methods
 	defaultParams = {
-		maghrib: '0 min', midnight: 'Standard'
+		maghrib: '3 min', midnight: 'Standard'
 
 	},
 
