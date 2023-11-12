@@ -1,3 +1,4 @@
+Note:gnome 45 update copyed from https://github.com/msabur/azan-gnome-shell-extension/tree/port-to-gnome-45
 ### Description
 
 Azan is an Islamic prayer times extension for Gnome Shell.
