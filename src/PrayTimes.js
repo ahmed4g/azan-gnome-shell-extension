@@ -58,6 +58,9 @@ http://praytimes.org/calculation
 
 function getMethods() {
   return {
+        MUI: {
+            name: 'Majelis Ulama Indonesia',
+            params: { fajr: 20, dhuhr: '4 mins', maghrib: 2, isha: 18.75 } },
 		MWL: {
 			name: 'Muslim World League',
 			params: { fajr: 18, isha: 17 } },
@@ -82,7 +85,6 @@ function getMethods() {
 
 function PrayTimes(method) {
 
-
 	//------------------------ Constants --------------------------
 	var
 
@@ -106,7 +108,7 @@ function PrayTimes(method) {
 
 	// Default Parameters in Calculation Methods
 	defaultParams = {
-		maghrib: '3 min', midnight: 'Standard'
+		maghrib: '0 min', midnight: 'Standard'
 
 	},
 
@@ -575,3 +577,5 @@ var DMath = {
 
 
 var prayTimes = new PrayTimes();
+
+export {PrayTimes, prayTimes, getMethods}
